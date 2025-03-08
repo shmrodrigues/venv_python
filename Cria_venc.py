@@ -21,3 +21,5 @@ print("Criar ambiente virtual")
 
 #Instalar as bilbiotecas do projeto.
 #pip install -r requirements.txt
+
+# ambiente virtual

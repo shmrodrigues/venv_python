@@ -1,0 +1,18 @@
+git init
+
+git status
+
+# adcionado na stage area
+git add .gitignore
+
+# adcionado todos os arquivos
+git add .
+
+# No primeiro commit é necessário adicionar um comentário
+git config --global user.name "Sergio" 
+git config --global user.email "shmrodrigues@gmail.com"
+
+git commit -m "Primeiro commit do Projeto"
+
+git log
+
