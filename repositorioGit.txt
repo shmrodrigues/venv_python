@@ -8,6 +8,8 @@ git add .gitignore
 # adcionado todos os arquivos
 git add .
 
+git add "Nome do arquivo"
+
 # No primeiro commit é necessário adicionar um comentário
 git config --global user.name "Sergio" 
 git config --global user.email "shmrodrigues@gmail.com"
@@ -16,3 +18,14 @@ git commit -m "Primeiro commit do Projeto"
 
 git log
 
+# Criar uma nova branch no git a branch "main"
+git branch -M main
+
+# crir uma conexão remota
+git remote add origin https://github.com/shmrodrigues/venv_python.git
+
+# enviar do local para o git (remoto)
+git push -u origin main
+
+# enviar do git (remoto) para o local  
+git pull 
